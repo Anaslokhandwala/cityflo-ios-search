@@ -1,0 +1,725 @@
+{
+  "generated_at": "2026-06-24T06:00:00+05:30",
+  "city": "Mumbai",
+  "client_config": {
+    "results_page_size": 12,
+    "log_search_queries_verbatim": true
+  },
+  "routes": [
+    {
+      "id": "R-101",
+      "name": "Andheri E → Airoli",
+      "corridor": "central",
+      "active": true,
+      "seats_total": 40,
+      "trips": [
+        {
+          "trip_id": "T-1001",
+          "departure": "2026-06-24T18:30:00+05:30",
+          "arrival": "2026-06-24T19:14:00+05:30",
+          "seats_booked": 15,
+          "on_time_pct": 78.7,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1002",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T18:50:00+05:30",
+          "seats_booked": 35,
+          "on_time_pct": 79.4,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1003",
+          "departure": "2026-06-24T18:30:00+05:30",
+          "arrival": "2026-06-24T19:27:00+05:30",
+          "seats_booked": 11,
+          "on_time_pct": 75.8,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1004",
+          "departure": "2026-06-24T17:30:00+05:30",
+          "arrival": "2026-06-24T18:31:00+05:30",
+          "seats_booked": 14,
+          "on_time_pct": 91.1,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-102",
+      "name": "Kurla → Andheri E",
+      "corridor": "western",
+      "active": true,
+      "seats_total": 40,
+      "trips": [
+        {
+          "trip_id": "T-1005",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:53:00+05:30",
+          "seats_booked": 9,
+          "on_time_pct": 81.0,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1006",
+          "departure": "2026-06-24T20:15:00+05:30",
+          "arrival": "2026-06-24T21:12:00+05:30",
+          "seats_booked": 30,
+          "on_time_pct": 78.2,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1007",
+          "departure": "2026-06-24T18:45:00+05:30",
+          "arrival": "2026-06-24T19:44:00+05:30",
+          "seats_booked": 12,
+          "on_time_pct": 74.0,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-103",
+      "name": "Powai → Mulund",
+      "corridor": "harbour",
+      "active": true,
+      "seats_total": 40,
+      "trips": [
+        {
+          "trip_id": "T-1008",
+          "departure": "2026-06-24T20:15:00+05:30",
+          "arrival": "2026-06-24T21:15:00+05:30",
+          "seats_booked": 28,
+          "on_time_pct": 73.3,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1009",
+          "departure": "2026-06-24T08:45:00+05:30",
+          "arrival": "2026-06-24T09:25:00+05:30",
+          "seats_booked": 8,
+          "on_time_pct": 78.2,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1010",
+          "departure": "2026-06-24T17:10:00+05:30",
+          "arrival": "2026-06-24T17:46:00+05:30",
+          "seats_booked": 17,
+          "on_time_pct": 90.0,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1011",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:59:00+05:30",
+          "seats_booked": 24,
+          "on_time_pct": 84.9,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-104",
+      "name": "Mulund → Nerul",
+      "corridor": "trans-thane",
+      "active": true,
+      "seats_total": 36,
+      "trips": [
+        {
+          "trip_id": "T-1012",
+          "departure": "2026-06-24T08:45:00+05:30",
+          "arrival": "2026-06-24T09:47:00+05:30",
+          "seats_booked": 35,
+          "on_time_pct": 77.9,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1013",
+          "departure": "2026-06-24T19:45:00+05:30",
+          "arrival": "2026-06-24T20:49:00+05:30",
+          "seats_booked": 24,
+          "on_time_pct": 80.7,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1014",
+          "departure": "2026-06-24T09:30:00+05:30",
+          "arrival": "2026-06-24T10:28:00+05:30",
+          "seats_booked": 3,
+          "on_time_pct": 93.2,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1015",
+          "departure": "2026-06-24T19:45:00+05:30",
+          "arrival": "2026-06-24T20:41:00+05:30",
+          "seats_booked": 21,
+          "on_time_pct": 86.4,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-105",
+      "name": "Goregaon ⇆ Worli (express • limited stops • monsoon-safe ☔)",
+      "corridor": "central",
+      "active": true,
+      "seats_total": 30,
+      "trips": [
+        {
+          "trip_id": "T-1016",
+          "departure": "2026-06-24T18:45:00+05:30",
+          "arrival": "2026-06-24T19:34:00+05:30",
+          "seats_booked": 4,
+          "on_time_pct": 90.2,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1017",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T19:00:00+05:30",
+          "seats_booked": 0,
+          "on_time_pct": 80.8,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1018",
+          "departure": "2026-06-24T08:30:00+05:30",
+          "arrival": "2026-06-24T09:27:00+05:30",
+          "seats_booked": 16,
+          "on_time_pct": "97.0",
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-106",
+      "name": "Ghatkopar → Airoli",
+      "corridor": "western",
+      "active": true,
+      "seats_total": 36,
+      "trips": [
+        {
+          "trip_id": "T-1019",
+          "departure": "2026-06-24T20:10:00+05:30",
+          "arrival": "2026-06-24T21:05:00+05:30",
+          "seats_booked": 3,
+          "on_time_pct": 89.4,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1020",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:40:00+05:30",
+          "seats_booked": 35,
+          "on_time_pct": 83.4,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1021",
+          "departure": "2026-06-24T18:15:00+05:30",
+          "arrival": "2026-06-24T18:55:00+05:30",
+          "seats_booked": 4,
+          "on_time_pct": 85.5,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-107",
+      "name": "Kurla → BKC",
+      "corridor": "harbour",
+      "active": true,
+      "seats_total": 38,
+      "trips": [
+        {
+          "trip_id": "T-1022",
+          "departure": "2026-06-24T17:15:00+05:30",
+          "arrival": "2026-06-24T18:10:00+05:30",
+          "seats_booked": 37,
+          "on_time_pct": 85.2,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1022",
+          "departure": "2026-06-24T17:18:00+05:30",
+          "arrival": "2026-06-24T18:12:00+05:30",
+          "seats_booked": 34,
+          "on_time_pct": 85.7,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1023",
+          "departure": "2026-06-24T20:45:00+05:30",
+          "arrival": "2026-06-24T21:50:00+05:30",
+          "seats_booked": 37,
+          "on_time_pct": 81.3,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-108",
+      "name": "Goregaon → Worli",
+      "corridor": "trans-thane",
+      "active": true,
+      "seats_total": 31,
+      "trips": [
+        {
+          "trip_id": "T-1024",
+          "departure": "2026-06-24T17:45:00+05:30",
+          "arrival": "2026-06-24T18:37:00+05:30",
+          "seats_booked": 12,
+          "on_time_pct": 95.4,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1025",
+          "departure": "2026-06-24T09:00:00+05:30",
+          "arrival": "2026-06-24T10:00:00+05:30",
+          "seats_booked": 7,
+          "on_time_pct": 96.7,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1026",
+          "departure": "2026-06-24T09:00:00+05:30",
+          "arrival": "2026-06-24T10:05:00+05:30",
+          "seats_booked": 29,
+          "on_time_pct": 92.5,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1027",
+          "departure": "2026-06-24T08:30:00+05:30",
+          "arrival": "2026-06-24T09:29:00+05:30",
+          "seats_booked": 12,
+          "on_time_pct": 88.3,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-109",
+      "name": "Mulund → Powai",
+      "corridor": "central",
+      "active": true,
+      "seats_total": 36,
+      "trips": [
+        {
+          "trip_id": "T-1028",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T11:20:00+05:30",
+          "seats_booked": 32,
+          "on_time_pct": 95.9,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1029",
+          "departure": "2026-06-24T07:10:00+05:30",
+          "arrival": "2026-06-24T08:22:00+05:30",
+          "seats_booked": 18,
+          "on_time_pct": 83.4,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1030",
+          "departure": "2026-06-24T20:45:00+05:30",
+          "arrival": "2026-06-24T21:44:00+05:30",
+          "seats_booked": 14,
+          "on_time_pct": 77.6,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-110",
+      "name": "Nerul → Mulund",
+      "corridor": "western",
+      "active": true,
+      "seats_total": 36,
+      "trips": [
+        {
+          "trip_id": "T-1031",
+          "departure": "2026-06-24T07:30:00+05:30",
+          "arrival": "2026-06-24T08:35:00+05:30",
+          "seats_booked": 7,
+          "on_time_pct": 75.1,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1032",
+          "departure": "2026-06-24T09:15:00+05:30",
+          "arrival": "2026-06-24T10:24:00+05:30",
+          "seats_booked": 2,
+          "on_time_pct": 94.1,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1033",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T18:46:00+05:30",
+          "seats_booked": 18,
+          "on_time_pct": 73.9,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1034",
+          "departure": "2026-06-24T08:30:00+05:30",
+          "arrival": "2026-06-24T09:36:00+05:30",
+          "seats_booked": 24,
+          "on_time_pct": 91.0,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-111",
+      "name": "Worli → Thane",
+      "corridor": "harbour",
+      "active": true,
+      "seats_total": 34,
+      "trips": [
+        {
+          "trip_id": "T-1035",
+          "departure": "2026-06-24T09:30:00+05:30",
+          "arrival": "2026-06-24T09:05:00+05:30",
+          "seats_booked": 6,
+          "on_time_pct": 97.2,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1036",
+          "departure": "2026-06-24T18:15:00+05:30",
+          "arrival": "2026-06-24T19:05:00+05:30",
+          "seats_booked": 16,
+          "on_time_pct": 76.2,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1037",
+          "departure": "2026-06-24T08:15:00+05:30",
+          "arrival": "2026-06-24T09:13:00+05:30",
+          "seats_booked": 33,
+          "on_time_pct": 97.0,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-112",
+      "name": "Chembur → Kanjurmarg",
+      "corridor": "trans-thane",
+      "active": true,
+      "seats_total": 30,
+      "trips": [
+        {
+          "trip_id": "T-1038",
+          "departure": "2026-06-24T18:10:00+05:30",
+          "arrival": "2026-06-24T19:09:00+05:30",
+          "seats_booked": 25,
+          "on_time_pct": 76.7,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1039",
+          "departure": "2026-06-24T08:30:00+05:30",
+          "arrival": "2026-06-24T09:18:00+05:30",
+          "seats_booked": 14,
+          "on_time_pct": 80.4,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1040",
+          "departure": "2026-06-24T20:15:00+05:30",
+          "arrival": "2026-06-24T21:01:00+05:30",
+          "seats_booked": 29,
+          "on_time_pct": 78.0,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1041",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T18:55:00+05:30",
+          "seats_booked": 12,
+          "on_time_pct": 72.8,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-113",
+      "name": "Malad → Kanjurmarg",
+      "corridor": "central",
+      "active": true,
+      "seats_total": 38,
+      "trips": [
+        {
+          "trip_id": "T-1042",
+          "departure": "2026-06-24T08:15:00+05:30",
+          "arrival": "2026-06-24T08:51:00+05:30",
+          "seats_booked": 35,
+          "on_time_pct": 91.5,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1043",
+          "departure": "2026-06-24T18:10:00+05:30",
+          "arrival": "2026-06-24T18:50:00+05:30",
+          "seats_booked": 30,
+          "on_time_pct": 87.1,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1044",
+          "departure": "2026-06-24T08:45:00+05:30",
+          "arrival": "2026-06-24T09:29:00+05:30",
+          "seats_booked": 13,
+          "on_time_pct": 91.3,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-114",
+      "name": "Airoli → Wadala",
+      "corridor": "western",
+      "active": true,
+      "seats_total": 34,
+      "trips": [
+        {
+          "trip_id": "T-1045",
+          "departure": "2026-06-24T18:10:00+05:30",
+          "arrival": "2026-06-24T19:00:00+05:30",
+          "seats_booked": 41,
+          "on_time_pct": 89.8,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1046",
+          "departure": "2026-06-24T19:30:00+05:30",
+          "arrival": "2026-06-24T20:20:00+05:30",
+          "seats_booked": 7,
+          "on_time_pct": 98.3,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1047",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:58:00+05:30",
+          "seats_booked": 8,
+          "on_time_pct": 98.2,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1048",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T18:58:00+05:30",
+          "seats_booked": 19,
+          "on_time_pct": 90.0,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-115",
+      "name": "Airoli → Worli",
+      "corridor": "harbour",
+      "active": true,
+      "seats_total": 38,
+      "trips": [
+        {
+          "trip_id": "T-1049",
+          "departure": "2026-06-24T20:15:00+05:30",
+          "arrival": "2026-06-24T21:13:00+05:30",
+          "seats_booked": 2,
+          "on_time_pct": 93.9,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1050",
+          "departure": "2026-06-24T09:30:00+05:30",
+          "arrival": "2026-06-24T10:27:00+05:30",
+          "seats_booked": 18,
+          "on_time_pct": 83.1,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1051",
+          "departure": "2026-06-24T09:30:00+05:30",
+          "arrival": "2026-06-24T10:38:00+05:30",
+          "seats_booked": 24,
+          "on_time_pct": 76.8,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1052",
+          "departure": "2026-06-24T08:45:00+05:30",
+          "arrival": "2026-06-24T09:55:00+05:30",
+          "seats_booked": 17,
+          "on_time_pct": 97.6,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-116",
+      "name": "BKC → Powai",
+      "corridor": "trans-thane",
+      "active": true,
+      "seats_total": 30,
+      "trips": [
+        {
+          "trip_id": "T-1053",
+          "departure": "2026-06-24T18:30:00+05:30",
+          "arrival": "2026-06-24T19:27:00+05:30",
+          "seats_booked": 0,
+          "on_time_pct": 91.4,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1054",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T19:00:00+05:30",
+          "seats_booked": 4,
+          "on_time_pct": 73.7,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1055",
+          "departure": "2026-06-24T18:00:00+05:30",
+          "arrival": "2026-06-24T18:58:00+05:30",
+          "seats_booked": 27,
+          "on_time_pct": 92.7,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1056",
+          "departure": "2026-06-24T08:10:00+05:30",
+          "arrival": "2026-06-24T09:02:00+05:30",
+          "seats_booked": 27,
+          "on_time_pct": 85.5,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-117",
+      "name": "Andheri E → Chembur",
+      "corridor": "central",
+      "active": true,
+      "seats_total": 31,
+      "trips": [
+        {
+          "trip_id": "T-1057",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:44:00+05:30",
+          "seats_booked": 27,
+          "on_time_pct": 85.9,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1058",
+          "departure": "2026-06-24T08:00:00+05:30",
+          "arrival": "2026-06-24T08:48:00+05:30",
+          "seats_booked": 8,
+          "on_time_pct": 81.6,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-110",
+      "name": "Chembur → Ghatkopar",
+      "corridor": "western",
+      "active": true,
+      "seats_total": 20,
+      "trips": [
+        {
+          "trip_id": "T-1059",
+          "departure": "2026-06-24T20:30:00+05:30",
+          "arrival": "2026-06-24T21:22:00+05:30",
+          "seats_booked": 11,
+          "on_time_pct": 86.3,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1060",
+          "departure": "2026-06-24T18:10:00+05:30",
+          "arrival": "2026-06-24T19:04:00+05:30",
+          "seats_booked": 2,
+          "on_time_pct": 80.5,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1061",
+          "departure": "2026-06-24T20:30:00+05:30",
+          "arrival": "2026-06-24T21:22:00+05:30",
+          "seats_booked": 9,
+          "on_time_pct": 90.6,
+          "status": "on_time"
+        }
+      ]
+    },
+    {
+      "id": "R-119",
+      "name": "Vikhroli → Goregaon",
+      "active": true,
+      "seats_total": 36,
+      "trips": [
+        {
+          "trip_id": "T-1062",
+          "departure": "2026-06-24T07:30:00+05:30",
+          "arrival": "2026-06-24T08:23:00+05:30",
+          "seats_booked": 20,
+          "on_time_pct": 74.0,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1063",
+          "departure": "2026-06-24T08:30:00+05:30",
+          "arrival": "2026-06-24T09:34:00+05:30",
+          "seats_booked": 18,
+          "on_time_pct": 76.1,
+          "status": "delayed"
+        },
+        {
+          "trip_id": "T-1064",
+          "departure": "2026-06-24T07:30:00+05:30",
+          "arrival": "2026-06-24T08:39:00+05:30",
+          "seats_booked": 19,
+          "on_time_pct": 98.2,
+          "status": "delayed"
+        }
+      ]
+    },
+    {
+      "id": "R-120",
+      "name": "",
+      "corridor": "trans-thane",
+      "active": true,
+      "seats_total": 20,
+      "trips": [
+        {
+          "trip_id": "T-1065",
+          "departure": "2026-06-24T18:10:00+05:30",
+          "arrival": "2026-06-24T18:55:00+05:30",
+          "seats_booked": 1,
+          "on_time_pct": 97.4,
+          "status": "on_time"
+        },
+        {
+          "trip_id": "T-1066",
+          "departure": "2026-06-24T17:45:00+05:30",
+          "arrival": "2026-06-24T18:39:00+05:30",
+          "seats_booked": 1,
+          "on_time_pct": 78.9,
+          "status": "delayed"
+        }
+      ]
+    }
+  ]
+}

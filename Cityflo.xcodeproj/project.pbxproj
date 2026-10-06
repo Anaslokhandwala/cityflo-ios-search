@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06329ADE926F5C90D31A145F /* SearchModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE78F66B4873AC3FCBD2565 /* SearchModelTests.swift */; };
+		0CCA01C9BAE4F64053590B60 /* SnapshotNormalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D3277AC672CE52A0CE972 /* SnapshotNormalizationTests.swift */; };
+		19C10E71C243B754770F7A89 /* routes.json in Resources */ = {isa = PBXBuildFile; fileRef = 77605C16C15BE0A303DE746E /* routes.json */; };
+		1D6497D270ACA9E0AFEB6C5A /* NetworkConditionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BFF6FA4410815F79347EA /* NetworkConditionsSheet.swift */; };
+		1F21915640F7BE3A2AF80CF5 /* CFNetworkConduit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC90A25B46B68124DC3432A /* CFNetworkConduit.swift */; };
+		20B8A4BC04542DB89E1EB44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33E934FD878D2B2CD399D31 /* Assets.xcassets */; };
+		3DD07AEE9C7F836937A16821 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B2AFFB666065382C195AE /* SearchScreen.swift */; };
+		4B8289DCACDB6C0BD641AEA6 /* RecentSearchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02D24513D0CCFD4B9005E12 /* RecentSearchesTests.swift */; };
+		55F127C9939C1C7BC29311D7 /* CityfloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F22D2ACCD680D85D35F54 /* CityfloApp.swift */; };
+		6753B444F6283D48948E1C1F /* SimulatedCityfloProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F700CE09F3B6F776EBC31 /* SimulatedCityfloProtocol.swift */; };
+		6EE3E7A108D2C0B6514717A9 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668731A0E39828F08D2BF78C /* NetworkingTests.swift */; };
+		74315AB33A3635C57533FBC7 /* RouteNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F4C2F30CDECC6DD2DE3551 /* RouteNormalizer.swift */; };
+		8DE934B247522DF217CC5665 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E614EB561AE448B0E8F9D0 /* SearchModel.swift */; };
+		952ECFDDBB84D4DEFB9A293D /* RecentSearchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F87FFB19CB720DDD0A3737 /* RecentSearchStore.swift */; };
+		9A95A8D881A8D8B14CC314CB /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD47D773F1AFB05141D9DBD /* RouteDetailView.swift */; };
+		B6D28E158E368186A26885CF /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B74D7A8F24FD92DB7C30B /* Route.swift */; };
+		BEDDDDD0A008D1FF6105E068 /* SimulatedBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C00F7423456186DBBE35C /* SimulatedBackend.swift */; };
+		C64EEF644CED5863C538FCC4 /* NetworkConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C29A1BDE119E16D67FA7B81 /* NetworkConditions.swift */; };
+		DF578B5C8B6817A98EFE625D /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94E91826B2151E5E147127 /* SearchResponse.swift */; };
+		F0702979F1FE000323A164ED /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE122D824BF0028F44F26C3 /* Formatting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631A49EB1AA8D644968B475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD810F0C5275D812455DC34F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644007F8FE51A565C79F5405;
+			remoteInfo = Cityflo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E614EB561AE448B0E8F9D0 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		0FE78F66B4873AC3FCBD2565 /* SearchModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModelTests.swift; sourceTree = "<group>"; };
+		3AC90A25B46B68124DC3432A /* CFNetworkConduit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkConduit.swift; sourceTree = "<group>"; };
+		421BFF6FA4410815F79347EA /* NetworkConditionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConditionsSheet.swift; sourceTree = "<group>"; };
+		425F700CE09F3B6F776EBC31 /* SimulatedCityfloProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedCityfloProtocol.swift; sourceTree = "<group>"; };
+		509C00F7423456186DBBE35C /* SimulatedBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedBackend.swift; sourceTree = "<group>"; };
+		587F22D2ACCD680D85D35F54 /* CityfloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityfloApp.swift; sourceTree = "<group>"; };
+		668731A0E39828F08D2BF78C /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		6B0D3277AC672CE52A0CE972 /* SnapshotNormalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotNormalizationTests.swift; sourceTree = "<group>"; };
+		77605C16C15BE0A303DE746E /* routes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = routes.json; sourceTree = "<group>"; };
+		81A197E057A22E984407BE36 /* Cityflo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cityflo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C29A1BDE119E16D67FA7B81 /* NetworkConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConditions.swift; sourceTree = "<group>"; };
+		933B74D7A8F24FD92DB7C30B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		93F87FFB19CB720DDD0A3737 /* RecentSearchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchStore.swift; sourceTree = "<group>"; };
+		974B2AFFB666065382C195AE /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		9FD47D773F1AFB05141D9DBD /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		D2FD638E2B143DFFB7B773D6 /* CityfloTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CityfloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33E934FD878D2B2CD399D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE122D824BF0028F44F26C3 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		EF94E91826B2151E5E147127 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		F02D24513D0CCFD4B9005E12 /* RecentSearchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchesTests.swift; sourceTree = "<group>"; };
+		F0F4C2F30CDECC6DD2DE3551 /* RouteNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteNormalizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		39EB6C1E43F5DE3BF180EC50 /* CityfloTests */ = {
+			isa = PBXGroup;
+			children = (
+				668731A0E39828F08D2BF78C /* NetworkingTests.swift */,
+				F02D24513D0CCFD4B9005E12 /* RecentSearchesTests.swift */,
+				0FE78F66B4873AC3FCBD2565 /* SearchModelTests.swift */,
+				6B0D3277AC672CE52A0CE972 /* SnapshotNormalizationTests.swift */,
+			);
+			path = CityfloTests;
+			sourceTree = "<group>";
+		};
+		6EF2102D94A7C9327E61164D /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				93F87FFB19CB720DDD0A3737 /* RecentSearchStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		742F2AFEE22386086D8B4176 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3AC90A25B46B68124DC3432A /* CFNetworkConduit.swift */,
+				8C29A1BDE119E16D67FA7B81 /* NetworkConditions.swift */,
+				509C00F7423456186DBBE35C /* SimulatedBackend.swift */,
+				425F700CE09F3B6F776EBC31 /* SimulatedCityfloProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7A4AE9D13CD6E05534C2618A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				587F22D2ACCD680D85D35F54 /* CityfloApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7AE411FC76F2F77284BB0DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A197E057A22E984407BE36 /* Cityflo.app */,
+				D2FD638E2B143DFFB7B773D6 /* CityfloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CED6F1D167B900489305DD5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DCE122D824BF0028F44F26C3 /* Formatting.swift */,
+				421BFF6FA4410815F79347EA /* NetworkConditionsSheet.swift */,
+				9FD47D773F1AFB05141D9DBD /* RouteDetailView.swift */,
+				04E614EB561AE448B0E8F9D0 /* SearchModel.swift */,
+				974B2AFFB666065382C195AE /* SearchScreen.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A571BA9B1F1B9C780DD84664 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77605C16C15BE0A303DE746E /* routes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACDC0DBB0A281918CA955379 /* Cityflo */ = {
+			isa = PBXGroup;
+			children = (
+				D33E934FD878D2B2CD399D31 /* Assets.xcassets */,
+				7A4AE9D13CD6E05534C2618A /* App */,
+				7CED6F1D167B900489305DD5 /* Features */,
+				FFE980254844E50E8267BB7C /* Model */,
+				742F2AFEE22386086D8B4176 /* Networking */,
+				6EF2102D94A7C9327E61164D /* Persistence */,
+				A571BA9B1F1B9C780DD84664 /* Resources */,
+			);
+			path = Cityflo;
+			sourceTree = "<group>";
+		};
+		EEFECD9F860AD27C5C6C6EEE = {
+			isa = PBXGroup;
+			children = (
+				ACDC0DBB0A281918CA955379 /* Cityflo */,
+				39EB6C1E43F5DE3BF180EC50 /* CityfloTests */,
+				7AE411FC76F2F77284BB0DDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE980254844E50E8267BB7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933B74D7A8F24FD92DB7C30B /* Route.swift */,
+				F0F4C2F30CDECC6DD2DE3551 /* RouteNormalizer.swift */,
+				EF94E91826B2151E5E147127 /* SearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644007F8FE51A565C79F5405 /* Cityflo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47754E80DA2980407F48B6CD /* Build configuration list for PBXNativeTarget "Cityflo" */;
+			buildPhases = (
+				A9C61C7D555715C9CD890F55 /* Sources */,
+				581027DD25F38BE91E369A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cityflo;
+			packageProductDependencies = (
+			);
+			productName = Cityflo;
+			productReference = 81A197E057A22E984407BE36 /* Cityflo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1EBBF084E657BC1A36E1D17 /* CityfloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75384CFDCBC4FCF5B043CBEE /* Build configuration list for PBXNativeTarget "CityfloTests" */;
+			buildPhases = (
+				4D9C84AB086190430D90DCEF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A289BCD26B8688DDFF9AE9F /* PBXTargetDependency */,
+			);
+			name = CityfloTests;
+			packageProductDependencies = (
+			);
+			productName = CityfloTests;
+			productReference = D2FD638E2B143DFFB7B773D6 /* CityfloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD810F0C5275D812455DC34F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F1B16CFED4560CEE3E741324 /* Build configuration list for PBXProject "Cityflo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EEFECD9F860AD27C5C6C6EEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644007F8FE51A565C79F5405 /* Cityflo */,
+				C1EBBF084E657BC1A36E1D17 /* CityfloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581027DD25F38BE91E369A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B8A4BC04542DB89E1EB44E /* Assets.xcassets in Resources */,
+				19C10E71C243B754770F7A89 /* routes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9C84AB086190430D90DCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE3E7A108D2C0B6514717A9 /* NetworkingTests.swift in Sources */,
+				4B8289DCACDB6C0BD641AEA6 /* RecentSearchesTests.swift in Sources */,
+				06329ADE926F5C90D31A145F /* SearchModelTests.swift in Sources */,
+				0CCA01C9BAE4F64053590B60 /* SnapshotNormalizationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C61C7D555715C9CD890F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F21915640F7BE3A2AF80CF5 /* CFNetworkConduit.swift in Sources */,
+				55F127C9939C1C7BC29311D7 /* CityfloApp.swift in Sources */,
+				F0702979F1FE000323A164ED /* Formatting.swift in Sources */,
+				C64EEF644CED5863C538FCC4 /* NetworkConditions.swift in Sources */,
+				1D6497D270ACA9E0AFEB6C5A /* NetworkConditionsSheet.swift in Sources */,
+				952ECFDDBB84D4DEFB9A293D /* RecentSearchStore.swift in Sources */,
+				B6D28E158E368186A26885CF /* Route.swift in Sources */,
+				9A95A8D881A8D8B14CC314CB /* RouteDetailView.swift in Sources */,
+				74315AB33A3635C57533FBC7 /* RouteNormalizer.swift in Sources */,
+				8DE934B247522DF217CC5665 /* SearchModel.swift in Sources */,
+				DF578B5C8B6817A98EFE625D /* SearchResponse.swift in Sources */,
+				3DD07AEE9C7F836937A16821 /* SearchScreen.swift in Sources */,
+				BEDDDDD0A008D1FF6105E068 /* SimulatedBackend.swift in Sources */,
+				6753B444F6283D48948E1C1F /* SimulatedCityfloProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A289BCD26B8688DDFF9AE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644007F8FE51A565C79F5405 /* Cityflo */;
+			targetProxy = 631A49EB1AA8D644968B475E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0702E26BE3B50ECBE94B3108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityflo.search-explorer.tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cityflo.app/Cityflo";
+			};
+			name = Debug;
+		};
+		5068171838AFBADF48378422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B5AAB7E67E806B64571D36E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cityflo Search";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityflo.search-explorer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BDD7EBDEBE12A2E89ACBFEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityflo.search-explorer.tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cityflo.app/Cityflo";
+			};
+			name = Release;
+		};
+		CAFCF60CBCE88909F10FD6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cityflo Search";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityflo.search-explorer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E3D73C7854BC0E6430F52C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47754E80DA2980407F48B6CD /* Build configuration list for PBXNativeTarget "Cityflo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCF60CBCE88909F10FD6EE /* Debug */,
+				B5AAB7E67E806B64571D36E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		75384CFDCBC4FCF5B043CBEE /* Build configuration list for PBXNativeTarget "CityfloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0702E26BE3B50ECBE94B3108 /* Debug */,
+				BDD7EBDEBE12A2E89ACBFEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B16CFED4560CEE3E741324 /* Build configuration list for PBXProject "Cityflo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5068171838AFBADF48378422 /* Debug */,
+				E3D73C7854BC0E6430F52C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD810F0C5275D812455DC34F /* Project object */;
+}
